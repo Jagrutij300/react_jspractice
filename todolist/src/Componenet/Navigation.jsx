@@ -1,6 +1,6 @@
-import Navigation from "../styles/Navigation.css";
+import React from "react"
 
-function Navigation(){
+const Navigation= () => {
     return(
 
         <ul className="nav_container">

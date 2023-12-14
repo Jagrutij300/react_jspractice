@@ -1,6 +1,14 @@
 .Main_Container{
+    font-size: 30px;
+    color: white;
+    text-align: center;
     height: 80px;
-    background-size: 60px;
+    background-size: 60px 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://media.istockphoto.com/id/1199017962/photo/idyllic-forest-glade-mossy-woodland-golden-rays-of-sunbeams-panorama.webp?s=1024x1024&w=is&k=20&c=_zYUd-28D7bpsvfIDQElruQN5m8Ww8b3bZd5840P-tE=");
+    background-image: url("");
+}
+.heading1_Main{
+    padding-top: 20px;
+    
 }
