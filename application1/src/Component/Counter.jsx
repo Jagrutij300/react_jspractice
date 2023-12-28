@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Counter = () => {
-    let value = 1;
+    //let value = 1;
+    const [value, SetValue] = useState(1)
     return (
 
         <div style={{color:"white"}}>
 <h1> Counter</h1>
 <p style={{fontSize:"24px", marginLeft:"70px"}}>{value}</p>
 <button onClick={function(){
-    console.log("Increment");
+    SetValue(value +1)
+    console.log(value)
+    console.log("Increment")
 }}>Increament</button>
 <button onClick={function(){
-    console.log("Decrement");
+    SetValue(value -1)
+    console.log(value)
+    console.log("Decrement")
 }}>Decrement</button>
         </div>
     )
