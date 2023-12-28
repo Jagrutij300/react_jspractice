@@ -2,6 +2,7 @@
 //functional component
 //First letter should be capital of a component
 import "./App.css"
+import Bio from "./Componenet/Bio";
 import Navigation from "./Componenet/Navigation";
 import Main from "./Componenet/Main";
 
@@ -15,7 +16,7 @@ function App(){
       {/* <h1>This is my Application</h1> */}
       <Navigation/>
       <Main/>
-
+      <Bio/>
     </div>
     
   )
