@@ -6,18 +6,19 @@ const Counter = () => {
     return (
 
         <div style={{color:"white"}}>
-<h1> Counter</h1>
-<p style={{fontSize:"24px", marginLeft:"70px"}}>{value}</p>
-<button onClick={function(){
-    SetValue(value +1)
-    console.log(value)
-    console.log("Increment")
-}}>Increament</button>
-<button onClick={function(){
-    SetValue(value -1)
-    console.log(value)
-    console.log("Decrement")
-}}>Decrement</button>
+        <h1> Counter</h1>
+        <p style={{fontSize:"24px", marginLeft:"70px"}}>{value}</p>
+        <button onClick={function(){
+         SetValue(value +1)
+         console.log(value)
+         console.log("Increment")
+          }}>Increament</button>
+       
+         <button onClick={function(){
+          SetValue(value -1)
+          console.log(value)
+          console.log("Decrement")
+         }}>Decrement</button>
         </div>
     )
 }
