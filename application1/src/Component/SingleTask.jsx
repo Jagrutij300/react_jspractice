@@ -6,6 +6,7 @@ const SingleTask = ({task, taskno }) => {
       
       {taskno}
        {task }
+       <button>Delet</button>
         </div>
     )
 }

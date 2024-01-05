@@ -3,7 +3,9 @@ import SingleTask from "./SingleTask"
 
 let arr =["go to gym","read some books","cook your meal","read newspaper"]
 
-const TaskContainer =() =>{
+const TaskContainer =({task}) =>{
+
+    arr.push(task)
     return(
         <div style={{border:"5px solid blue", marginTop:"50px"}} >
 

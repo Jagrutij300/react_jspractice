@@ -1,10 +1,12 @@
 import React from "react";
 
 
-const InputContainer =() =>{
-    let input ="text"; 
+const InputContainer =({setInput}) =>{
+    let input =""; 
     
-
+function addHandler(){
+    setInput(input)
+}
     
     return (
         <div style={{display:"flex",justifyContent:"center", paddingTop:"50px"}}>
@@ -12,10 +14,7 @@ const InputContainer =() =>{
                input=event.target.value;
                console.log(input);
             }} style ={{padding:"20px 30px"}}/>
-          
-          
-          
-            <button style ={{padding:"20px 30px"}}>Add</button>
+          <button style ={{padding:"20px 30px"}} onClick={addHandler}>Add</button>
         </div>
     )
 }
