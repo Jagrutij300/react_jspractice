@@ -1,0 +1,7 @@
+{
+    "explorer.excludeGitIgnore": false,
+    "git.enabled": true,
+    "git.terminalGitEditor": false,
+    "git.branchRandomName.enable": true,
+    "git.decorations.enabled": true
+}
